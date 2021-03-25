@@ -8,7 +8,6 @@
 img.col-lg-3 {
   border-radius: 50px;
   max-width: 25%;
-  margin-top: 15px;
   margin-left: 30px; }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -558,7 +557,7 @@ h1, h2, h3 {
   font-family: 'Amaranth', Arial, Verdana, sans-serif; }
 
 h1 {
-  padding: 1em 0;
+  padding: 0 0 1em 0;
   margin-left: 1.5em;
   font-size: 2.5em;
   font-family: 'Amaranth', Arial, Verdana, sans-serif; }
