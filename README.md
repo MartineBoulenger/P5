@@ -26,3 +26,4 @@ ensuite taper la commande cd backend
 taper npm install
 taper node server
 vous êtes connecté au serveur
+rendez vous sur la page suivante : https://martineboulenger.github.io/P5/index.html
