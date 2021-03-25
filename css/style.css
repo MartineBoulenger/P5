@@ -1443,35 +1443,35 @@ main {
 @media only screen and (max-width: 1024px) {
   .navbar:hover .navbar-title {
     display: none; } }
-@media only screen and (max-width: 1600px) {
-  .navbar {
-    top: auto;
-    width: 100%;
-    bottom: 0px;
-    position: relative; }
+.navbar {
+  top: auto;
+  width: 100%;
+  bottom: 0px;
+  position: relative; }
 
-  .navbar:hover {
-    width: 100%; }
+.navbar:hover {
+  width: 100%; }
 
-  .navbar-menu {
-    flex-direction: row; }
+.navbar-menu {
+  flex-direction: row; }
 
-  .logo {
-    display: none; }
+.logo {
+  display: none; }
 
-  main {
-    margin-left: 0;
-    margin-bottom: 5rem; }
+main {
+  margin-left: 0;
+  margin-bottom: 5rem; }
 
-  .navbar:hover .navbar-title {
-    margin-right: 10px; }
+.navbar:hover .navbar-title {
+  margin-right: 10px; }
 
-  .navbar-icon {
-    min-width: auto;
-    margin: 0; }
+.navbar-icon {
+  min-width: auto;
+  margin: 0; }
 
-  .navbar-link {
-    justify-content: center; } }
+.navbar-link {
+  justify-content: center; }
+
 .col-12 p {
   margin-bottom: 60px;
   color: black;
