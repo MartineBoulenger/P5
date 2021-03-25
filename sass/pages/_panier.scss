@@ -1,0 +1,76 @@
+.prix{
+    font-size: 1.75em;
+    text-align: center;
+    color: $orange;
+    background-color: $color-header;
+}
+.label{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%;
+}
+.label2{
+    margin-bottom: 5%;
+}
+.formulaire{
+    font-size: 3.5em;
+    color: $color-grey;
+}
+.text-white{
+    color: $color-grey;
+}
+.cadre{
+    border: 3px solid $color-noir;
+    padding: 5% 5% 3% 5%;
+    margin-bottom: 5%;
+    background-color: $orange;
+}
+.titrepanier{
+    font-size: 3.5em;
+    counter-reset: $color-grey;
+}
+.cadre2{
+    border: 3px solid $color-noir;
+    padding: 2% 5% 3% 5%;
+    margin-bottom: 6%;
+    background-color: $orange;
+}
+.btn-lg{
+    font-size: 1.5em;
+    display: flex;
+    place-content: space-around;
+}
+.btn-valide{
+    margin: 0 auto;
+}
+.btn-success {
+    color: #fff;
+    background-color: $orange;
+    border-color: $color-grey;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: $color-grey;
+    border-color: $orange;
+}
+@media all and (max-width: 767px) {
+    .titrepanier{
+        font-size: 1.75em;
+    }
+    .card-prix{
+        font-size: 1.5em;
+    }
+    .prix{
+        font-size: 1.25em;
+    }
+    .formulaire{
+        font-size: 2em;
+    }
+    .label{
+        font-size: 1.5em;
+    }
+    .btn{
+        margin: 4% 0;
+        font-size: 20px;
+    }
+}

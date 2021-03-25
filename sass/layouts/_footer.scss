@@ -1,0 +1,49 @@
+.footer{
+    background-color: $orange;
+    display: flex;
+    justify-content: space-between;
+    padding:5% 10%;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+a.h1text{
+    color: $color-textbutton;
+    
+}
+
+a.social{
+    color: $color-textbutton;
+    font-size: 35px;
+    
+}
+a.h1text:hover{
+    color: $black;
+}
+a.social:hover{
+    color: $black;
+    
+}
+.fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram{
+    font-weight: 600;
+    color: $color-textbutton;
+}
+.fa.fa-facebook:hover ,.fa.fa-twitter:hover ,.fa.fa-instagram:hover{
+    font-weight: 600;
+    color: $black;
+}
+@media all and (max-width: 767px){
+    .footer{
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    a.h1text{
+        margin-bottom: 10px;
+    }
+    a.social{
+        margin-bottom: 10px;
+        font-size: 30px;
+        
+}
+}

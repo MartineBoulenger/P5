@@ -1,0 +1,51 @@
+.containerconfirmation{
+    background-color: $orange;
+}
+.message{
+    color: $color-textbutton;
+    margin: 2% 4%;
+}
+.recapitulatif{
+    color: $color-textbutton;
+    margin: 0 auto;
+    text-decoration:underline;
+    margin-bottom: 3%;
+    font-size: 35px;
+}
+.paragraphe{
+    color: $color-textbutton;
+    margin-left: 2%; 
+}
+.boutonconfirmation{
+    margin: 2% auto 17%;
+    border-radius: 10px;
+    border-color: $color-header;
+    background-color: $color-header;
+    padding: 10px;
+    color: $color-grey;
+}
+a.boutonconfirmation{
+    color: $color-grey;
+}
+a.boutonconfirmation:hover{
+    color: white;
+}
+
+.boutonconfirmation:hover{
+    background-color: $color-grey;
+    color: white;
+}
+@media all and (max-width: 767px) {
+    .message{
+        text-align: center;
+        margin: 2% 5% 15%;
+        font-size: 1.15em;
+    }
+    .recapitulatif{
+        text-align: center;
+        font-size: 1.15em;
+    }
+    .paragraphe{
+        font-size: 0.85em;
+    }
+}

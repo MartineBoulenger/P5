@@ -1,0 +1,159 @@
+.titreproduit {
+    color: $orange!important;
+    font-family:$title-style ;
+    padding-top: 0px;
+}
+
+.text-center {
+    text-align: center!important;
+    background-color: $color-header;
+}
+main.main.pt-5.pb-1 {
+    padding-top: 0px;
+}
+.pt-5 {
+    padding-top:0px;
+}
+.personnaliser{
+    font-size: 2em;
+    margin: 2% 0;
+}
+.personnaliser2{
+    font-size: 2em;
+}
+.choix{
+    font-size: 1.5em;
+    border: 3px solid $orange;
+    padding: 0 6%;
+    margin: 2% 2%;
+}
+.divperso{
+    display: flex;
+    justify-content: center;
+}
+.qty{
+   
+    font-size: 1.5em;
+    text-align: center;
+}
+.btnqty{
+    background-color: $orange;
+    color: $color-textbutton;
+    font-size: 2em;
+    margin: 0 2%;
+}
+.card-img2{
+    height: 350px;
+    width: auto;
+    display: flex;
+    margin: 3% auto;
+}
+.card-title2{
+    font-size: 3.5em;
+    text-align: center;
+}
+.card-description{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 0 19%;
+    padding-bottom: 3%;
+}
+.card-prix{
+    font-size: 2em;
+    text-align: center;
+}
+.bordure2{
+    border: 3px solid $orange;
+    margin-bottom: 5%;
+    background-color: $color-textbutton;
+}
+a:not([href]):not([tabindex]) {
+    color: white;
+    background-color: $orange;
+}
+@media all and (max-width : 767px) {
+    .divperso{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img2{
+        height: 200px;
+    }
+    .personnaliser{
+        font-size: 0.9em;
+    }
+    .personnaliser2{
+        font-size: 0.9em;
+    }
+    .choix{
+        border: 3px solid $orange;
+        font-size: 0.8em;
+    }
+    .qty{
+      
+        font-size: 1em;
+        text-align: center;
+    }
+    .btnqty{
+        background-color: $orange;
+        color: $color-textbutton;
+        font-size: 0.85em;
+        margin: 0 2%;
+    }
+
+}
+.btnajout:hover{
+    background-color: $color-grey;
+    color: $black;
+  
+    }
+    .btnajout{
+        background-color: $orange;
+        border: $black;
+        color: white;
+    &__centre{
+        display: flex;
+        place-content: space-around;
+        margin: 4% 20%;
+        font-size: 25px;
+        font-family:$title-style ;
+    }
+} 
+
+
+@media all and (max-width: 767px) {
+   
+    .btnajout{
+        &__centre{
+            margin: 4% 15%;
+            font-size: 15px;
+        }
+    }
+    .card-description{
+        font-size: 1em;
+        text-align: left;
+        margin: 0 2%;
+       
+    }
+   
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 991.98px) and (max-width: 1399.98px) { 
+    .personnaliser{
+    font-size: 1.2em;
+  
+}
+.personnaliser2{
+    font-size: 1.2em;
+} 
+
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .personnaliser{
+        font-size: 1em;
+        
+    }
+    .personnaliser2{
+        font-size: 1em;
+    }
+}

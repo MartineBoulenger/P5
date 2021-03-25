@@ -1,0 +1,42 @@
+.col-12 p{
+    margin-bottom: 60px;
+    color: black;
+    font-size: $text;
+    font-family:$text-style ;
+}
+.mention{
+    justify-content: center;
+    background-color: $color-header;
+    margin-left: 0px;
+}
+.titremention{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#rowtext.rowtext{
+font-size: 1.2rem;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+ #rowtext.rowtext{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; }
+ }
+ @media (min-width: 992px) and (max-width: 1198.98px) { 
+    #rowtext.rowtext{
+    margin-top: 60px;
+     
+  }
+}
