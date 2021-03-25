@@ -73,4 +73,25 @@
         margin: 4% 0;
         font-size: 20px;
     }
+    
 }
+@media (max-width: 575.98px) { 
+    table.table{
+        font-size: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    td.col-3{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }  
+    th.col-3{
+        margin-left: 10px;
+    }
+    .row {
+        padding-left:2px;
+        padding-right: 2px;
+    }
+ }

@@ -24,7 +24,10 @@ img.col-lg-3 {
 
   .navbar-dark .navbar-nav .nav-link {
     color: white;
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+
+  img.col-lg-3 {
+    max-width: 50%; } }
 @media all and (max-width: 991.98px) {
   .menu {
     font-size: 25px; }
@@ -32,6 +35,10 @@ img.col-lg-3 {
   .btn__centre {
     margin: 4% 15%;
     font-size: 20px; }
+  .btn img.col-lg-3 {
+    border-radius: 50px;
+    max-width: 100%;
+    margin-left: 30px; }
 
   .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -379,6 +386,24 @@ a:not([href]):not([tabindex]) {
   .btn {
     margin: 4% 0;
     font-size: 20px; } }
+@media (max-width: 575.98px) {
+  table.table {
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+
+  td.col-3 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px; }
+
+  th.col-3 {
+    margin-left: 10px; }
+
+  .row {
+    padding-left: 2px;
+    padding-right: 2px; } }
 .containerconfirmation {
   background-color: #b14b0c; }
 
@@ -671,7 +696,8 @@ a:focus {
 
   h1 {
     background-color: #e4dfd2;
-    margin-top: 20px; } }
+    margin-top: 20px;
+    margin-left: 20px; } }
 @media (max-width: 575.98px) {
   span {
     font: size 1rem; } }
