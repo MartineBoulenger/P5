@@ -17,8 +17,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Amaranth:700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -59,77 +59,74 @@
 				</a>
 			  </li>
 			</ul>
-		  </nav>
-		</header>
+		</nav>
+	</header>
         <a href="../index.html" class="col-lg-3">
             <img class="col-lg-3 offset-lg-3 col-md-6 offset-md-3" src="../images/logo2.webp" alt="logo du site Orinoco">
-                  </a>
-  <main class="container">
+        </a>
 
-        <div class="jumbotron">
-            <h1 id="message" class="text-center"></h1>
-        </div>
-
-        <div id="alert" class="alert text-center alert-danger alert-dismissible fade" role="alert">
-            <span class="icon"><i class="far fa-lg fa-comment"></i></span>
-            article supprimé du panier avec succès.
-        </div>
-
-        <div class="products row justify-content-center">
-            <table class="table">
-                <thead class="text-center">
-                    <tr class="d-flex">
-                        <th class="col-1" scope="col">
-                            <span>
-                                <ion-icon name='trash-outline'></ion-icon>
-                            </span>
-                        </th>
-                        <th class="col-md-3" scope="col" style="width:150px">Article</th>
-                        <th class="col-2" scope="col">Couleur</th>
-                        <th class="col-3" scope="col">Qté</th>
-                        <th class="col-3" scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody class="text-center">
-                </tbody>
-                <tfoot>
-                    <tr class="d-flex">
-                        <td class="d-none d-md-block col-md-6"></td>
-                        <td class="text-right text-md-center font-weight-bold col-9 col-md-3">Sous total :</td>
-                        <td id="sous-total" class="text-center col-3 col-md-3">0,00 €</td>
-                    </tr>
-                    <tr class="d-flex">
-                        <td class="border-0  col-md-9"></td>
-                        <td class="text-right text-md-center border-0 col-md-3">
-                            <button type="button" id="order" class="btn btn-warning">Commander</button>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-    </main>
+        <main class="container">
+            <div class="jumbotron">
+                <h1 id="message" class="text-center"></h1>
+            </div>
+            <div id="alert" class="alert text-center alert-danger alert-dismissible fade" role="alert">
+                <span class="icon"><i class="far fa-lg fa-comment"></i></span>
+                 article supprimé du panier avec succès.
+            </div>
+            <div class="products row justify-content-center">
+                <table class="table">
+                    <thead class="text-center">
+                        <tr class="d-flex">
+                            <th class="col-1" scope="col">
+                                <span>
+                                    <ion-icon name='trash-outline'></ion-icon>
+                                </span>
+                            </th>
+                            <th class="col-md-3" scope="col" style="width:150px">Article</th>
+                            <th class="col-2" scope="col">Couleur</th>
+                            <th class="col-3" scope="col">Qté</th>
+                            <th class="col-3" scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                    </tbody>
+                    <tfoot>
+                        <tr class="d-flex">
+                            <td class="d-none d-md-block col-md-6"></td>
+                            <td class="text-right text-md-center font-weight-bold col-9 col-md-3">Sous total :</td>
+                            <td id="sous-total" class="text-center col-3 col-md-3">0,00 €</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="border-0  col-md-9"></td>
+                            <td class="text-right text-md-center border-0 col-md-3">
+                                <button type="button" id="order" class="btn btn-warning">Commander</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
 <!--Partie footer-->
-<footer class="footer">
-    <a href="mailto:creationwebdesign.boulenger@gmail.com" class="h1text" title="Nous contacter">Contact</a>
-    <a class="social" href="https://www.twitter.com" title="twitter"><span class="fa fa-twitter icon-md tc-black" title=" Twitter"></span></a>
-    <a class="social" href="https://www.facebook.com" title="facebook"><span class="fa fa-facebook icon-md tc-black" title="Facebook"></span></a>
-    <a class="social" href="https://www.instagram.com" title= "instagram"><span class="fa fa-instagram icon-md tc-black" title="Instagram"></span></a>
-    <a href="mentionslegales.html" class="h1text" title="Mentions légales">Mentions légales</a>
-</footer>
-<script src="../js/index.js"></script>
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <script src="../js/panier.js"></script>
-    <script src="https://kit.fontawesome.com/dd54313d73.js" crossorigin="anonymous"></script>
+        <footer class="footer">
+            <a href="mailto:creationwebdesign.boulenger@gmail.com" class="h1text" title="Nous contacter">Contact</a>
+            <a class="social" href="https://www.twitter.com" title="twitter"><span class="fa fa-twitter icon-md tc-black" title=" Twitter"></span></a>
+            <a class="social" href="https://www.facebook.com" title="facebook"><span class="fa fa-facebook icon-md tc-black" title="Facebook"></span></a>
+            <a class="social" href="https://www.instagram.com" title= "instagram"><span class="fa fa-instagram icon-md tc-black" title="Instagram"></span></a>
+            <a href="mentionslegales.html" class="h1text" title="Mentions légales">Mentions légales</a>
+        </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        <script src="../js/index.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="../js/panier.js"></script>
+        <script src="https://kit.fontawesome.com/dd54313d73.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
-
 </html>
